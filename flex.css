@@ -1,0 +1,31 @@
+.heading{
+    text-align: center;
+    color: rgb(13, 27, 227);
+    border: 1px solid transparent;
+}
+h1{
+    background-color: cornsilk;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px rgb(16, 3, 189);
+}
+.child{
+    display: flex;
+    border: 2px solid green;
+    margin-bottom: 20px;
+}
+img{
+    width: 250px;
+}
+.flex1{
+    justify-content: space-around;
+    background-image: linear-gradient(to right, rgb(25, 17, 1), rgb(229, 229, 45));
+}
+.flex2{
+    justify-content: space-between;
+    background-image: linear-gradient(to right, green, yellow, rgb(29, 108, 29));
+}
+.flex3{
+    height: 300px;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, red, white, maroon);
+}
